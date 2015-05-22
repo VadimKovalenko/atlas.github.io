@@ -1,0 +1,407 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+hr {
+	height: 3px;
+	background: #b08d41;
+	border: none;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+button {
+	border: 3px solid white;
+	background: transparent;
+	cursor: pointer;
+	color: white;
+	text-transform: uppercase;
+	-webkit-transition: background 0.5s ease, color 0.3s ease;
+}
+
+button:hover {
+	background: #b08d41;
+	color: black;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+.center {
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.header {
+	background: black;
+	height: 119px;
+	width: 100%;
+	color: white;
+}
+
+.logo {
+	text-transform: uppercase;
+}
+
+.logo>h1:nth-child(1) {
+	font-family: robotothin;
+	font-weight: 100;
+	margin-top: 3px;
+	margin-bottom: 0;
+	font-size: 48px;
+}
+
+.logo>h1:nth-child(2)  {
+	font-family: robotoregular;
+	margin-top: -25px;
+	margin-bottom: 0px;
+	font-size: 56px;
+	letter-spacing: 3px;
+}
+
+.content {
+	padding-bottom:100px; /* Height of the footer element */
+	min-height:100%;
+	height: 1215px;
+	display: block;
+	margin-bottom:40px;
+}
+
+.header-wrapper {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.logo {
+	float: left;
+	width: 48%;
+	border: 1px solid black;
+}
+
+.header-right {
+	float: right;
+	width: 48%;
+	border: 1px solid black;
+}
+
+.header-right>hr {
+	background: #4d4d4d;
+	height: 1px;
+}
+
+.header-right>p {
+	font-family: robotoregular;
+	font-size: 14px;
+	color: #d1ac5a;
+	text-align: right;
+}
+
+.header-right>nav {
+	text-align: left;
+	padding: 0;
+}
+
+.header-right>nav>ul {
+	padding: 0;
+	height: 59px;	
+}
+
+.header-right>nav>ul>li {
+	float: left;
+	list-style: none;
+	height: 50px;
+	padding: 0px 8px 0px 5px;	
+}
+
+.header-right>nav>ul>li>a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-family: robotothin;
+	font-size: 18px;
+}
+
+.header-right>nav>ul>li:first-child {
+	padding-left: 0px;
+	padding-right: 16px;
+}
+
+.header-right>nav>ul>li:last-child {
+	padding-left: 12px;
+	padding-right: 0px;
+}
+
+.header-right>nav>ul>li:first-child:hover>.drop-down-menu {
+	display: block; 
+}
+
+.drop-down-menu>ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.drop-down-menu>ul>li {
+	padding: 6px 20px 5px 6px;
+	-webkit-transition: background 0.5s ease, color 0.3s ease;
+}
+
+.drop-down-menu>ul>li:first-child {
+	padding-top: 12px;
+}
+
+.drop-down-menu>ul>li:last-child {
+	padding-bottom: 12px;
+} 	
+
+.drop-down-menu>ul>li:hover {
+	background: black;
+}
+
+.drop-down-menu>ul>li:hover>a {
+	color: white;
+}
+
+.drop-down-menu>ul>li>a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: robotothin;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.drop-down-menu {
+	position: absolute;
+	top: 119px;
+	background: white;
+	display: none;
+	z-index: 10;
+}
+
+.arrow {
+  position: relative;
+  border-top: 4px solid white;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  left: 7px;
+  vertical-align: middle;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+}
+
+.hero {
+	position: absolute;
+	left: 0;
+	background-image: url(../images/city.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 681px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.hero>div {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.hero>div>h1 {
+	font-family: robotoblack;
+	margin-top: 192px;
+	margin-bottom: 20px;
+	font-size: 72px;
+	color: white;
+	letter-spacing: 4px;
+}
+
+.hero>div>h2 {
+	color: white;
+	font-family: Timeless;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hero>div>hr {
+	width: 390px;
+}
+
+.hero>div>button { 
+	width: 726px;
+	height: 83px;
+	font-family: robotoregular;
+	font-size: 48px;
+	letter-spacing: 6px;
+}
+
+.service-block-wrapper {
+	position: relative;
+	top: 681px;
+	width: 100%;
+}
+
+.service-block-title-wrapper {
+	padding-top: 40px;
+}
+
+.line-center {
+    margin: 0;
+	padding: 0 10px;
+    background: white;
+    display: inline-block;
+	
+}
+
+.service-block-title-1 { 
+    text-align: center;
+    position: relative;
+    z-index: 2;
+	width: 354px;
+	margin: 0 auto;
+	font-family: Timeless;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.service-block-title-1:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 3px black;
+    z-index:-1;
+}
+
+.service-block-title-2 {
+	text-align: center;
+	font-family: robotoblack;
+	font-size: 72px;
+	margin-top: -10px;
+	margin-bottom: 41px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.service-block {
+	margin: 0 auto;
+	width: 1200px;
+	height: 520px;
+}
+
+.scoop {
+	position:relative;
+	height:295px;
+	width:366px;
+	top: 0px;
+	overflow:hidden;
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.scoop>h2 {
+	position: relative;
+	color: white;
+	font-family: Timeless;
+	margin-bottom: 0;
+}
+
+.scoop>hr {
+	position: relative;
+	width: 121px;
+}
+
+.scoop>p {
+	position: relative;
+	color: white;
+	font-family: robotoregular;
+	font-size: 14px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+.scoop>button {
+	position: relative;
+	width: 172px;
+	height: 48px;
+	font-family: robotoregular;
+	font-size: 24px;
+	margin-top: 9px;	
+}
+
+.scoop:before{
+	content:'';
+	position:absolute;
+	left:0;
+	margin:-20px;
+	height:40px;
+	width:40px;
+	border-radius:100%;
+	background:#fff;
+	box-shadow:200px 0 0 #fff,
+	0 366px 0 #fff,
+	200px 200px 0 #fff,
+	0 0 0 500px #2798DE;/* here we draw background-color of parent */
+}
+
+.border {
+	box-shadow:
+	23px  0 0 -20px,/* 23px =>(towards right) width of pseudo seen + fakeborder width 0 0 -20px => reduce size shadow of 20px */ 
+	-23px  0 0 -20px,
+	0  23px  0 -20px,
+	0  -23px  0 -20px;
+	color: #b08d41;
+}
+
+.border:before {
+	box-shadow: 
+	0 0 0 3px,/* draw 3px unblured shadow */
+	366px 0 0 #fff,/* mask of main background-color */ 
+	366px 0 0 3px ,
+	0 295px 0 #fff,
+	0 295px 0 3px,
+	366px 295px 0 #fff,
+	366px 295px 0 3px,
+	0 0 0 500px #000;
+	color: #b08d41;
+}
+
+.middle {
+	margin-left: 41px;
+	margin-right: 41px;
+}
+
+.footer {
+	background:#ffab62;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align: center;
+	background: black;
+	color: white;
+	font-family: robotoregular;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-top: 26px;
+}
+
+.footer>p>a {
+	color: white;
+	text-decoration: none;
+}
