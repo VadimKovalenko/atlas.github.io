@@ -111,7 +111,9 @@ button:hover {
 
 .header-right>nav>ul {
 	padding: 0;
-	height: 59px;	
+	height: 59px;
+	float: right;
+	margin-top: 4px;
 }
 
 .header-right>nav>ul>li {
